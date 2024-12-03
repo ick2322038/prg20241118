@@ -5,15 +5,15 @@ body{
 }
 
 h1{
-    color: yellow;
-    background-color: black;
+    color: rgb(71, 238, 188);
+    background-color: rgb(97, 97, 97);
 }
 
 h2{
-    color: antiquewhite;
-    background-color: black;
+    color: rgb(187, 114, 221);
+    background-color: rgb(97, 97, 97);
 }
 
 h6{
-    color: red;
+    color: rgb(255, 0, 0);
 }
