@@ -2,6 +2,7 @@
 body{
     font-weight: bolder;
     font-family: system-ui;
+    background-color:black;
 }
 
 h1{
@@ -15,12 +16,11 @@ h2{
 }
 
 h6{
-    color: mediumspringgreen;
-    background-color:black;
+    color:red;
 }
 
 li{
-    color: mediumspringgreen;
+    color:blue;
     background-color:black;
 }
 
