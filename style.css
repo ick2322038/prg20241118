@@ -3,9 +3,8 @@ body{
     font-weight: bolder;
     font-family: system-ui;
 
-    /* 背景色指定 */
- background-color:black;
- color:#cccccc;
+/* 45度に傾いたグラデーションで、黒から青に */
+linear-gradient(45deg, black, blue);
  }
 
 
