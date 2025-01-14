@@ -11,7 +11,18 @@
 
         <form>
             <fieldset>
+                <legend>イベント申し込みフォーム</legend>
                 <div>
+                    <input type="radio" id="contactChoice1"name="contact" />
+                    <label for="contactChoice1">星空観察会</label>
+
+                    <input type="radio" id="contactChoice2"name="contact" />
+                    <label for="contactChoice2">館長の話を聞く会</label>
+                </div>
+                <div>
+                    氏名（姓）
+                    <input type="text">
+                    氏名（名）
                     <input type="text">
                 </div>
                 <div>
@@ -19,11 +30,15 @@
                     <input type="text">
                 </div>
             </fieldset>
-            ＜<input type="submit" value="送信" onclick="ques()">
+            <input type="submit" value="送信" onclick="ques()">
 
             <script>
                 function ques(){
                     if(window.confirm("申し込みますか？")){
+                        alert("完了しました<br>お申込みありがとうございます。<br/>")
+                        setTimeout(() => {
+                            location.href = "./index.html"
+                        },3000);
 
                     }else{
                         send();

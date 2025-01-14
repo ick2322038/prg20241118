@@ -2,7 +2,7 @@
 body{
     font-weight: bolder;
     font-family: system-ui;
-    background: linear-gradient(90deg, black, blue);
+    background: linear-gradient(30deg, rgb(0, 0, 100), rgb(135, 135, 255));
     color:#000000;
 
 
