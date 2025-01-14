@@ -9,6 +9,32 @@
     <body>
         <h1>市川天文台</h1>
 
+        <form>
+            <fieldset>
+                <div>
+                    <input type="text">
+                </div>
+                <div>
+                    電話番号
+                    <input type="text">
+                </div>
+            </fieldset>
+            ＜<input type="submit" value="送信" onclick="ques()">
+
+            <script>
+                function ques(){
+                    if(window.confirm("申し込みますか？")){
+
+                    }else{
+                        send();
+                    }
+                }
+
+                function send(){
+                    alert("できませんでした")
+                }
+            </script>
+        </form>
         <button onclick="location.href='./index.html'">戻る</button>
       
         <h6>※この天文台は実在しません</h6>
