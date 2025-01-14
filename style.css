@@ -2,8 +2,9 @@
 body{
     font-weight: bolder;
     font-family: system-ui;
-/* 45度に傾いたグラデーションで、赤から黒に */
-linear-gradient(45deg, red, black);
+    background: linear-gradient(90deg, black, blue);
+    color:#cccccc;
+
 
  }
 
